@@ -1,0 +1,16 @@
+[color]
+	ui = auto
+[user]
+	name = Philip Szalwinski
+	email = pszalwinski@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim
+	excludesfile = /Users/pszalwinski/.gitignore
+[credential]
+	helper = osxkeychain
+
+[alias]
+  fixup = commit --amend -C HEAD
+  ll    = log --graph --pretty=format:'%C(yellow)%h%Creset %Cgreen%an%Creset %s %C(yellow)%d%Creset %Cred(%ar)' --max-count=16
